@@ -78,7 +78,7 @@ h1, h2 {
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from:{
+    from{
         transform: scale(1);
     }
     to{
@@ -131,6 +131,38 @@ h1, h2 {
 }
 
 #center-about {
-    padding-top: 30px;
+    width: 33%;
     margin: 0 auto;    
+}
+
+/* clear: add space to both divs and aligns them vertically */
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
